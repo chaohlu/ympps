@@ -1,0 +1,57 @@
+﻿ul li {
+  padding: 8px 0;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+ul li ul li {
+  padding: 0;
+}
+
+td.clickcontent {
+	font-weight: bold;
+}
+
+td.clickcontent img {
+	display: inline-block !important;
+}
+
+#submit {
+    text-transform: lowercase;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #666;
+    border-radius: 0;
+    background: none;
+    padding: 10px 20px 15px;
+    margin: 10px auto 0;
+    font-variant: small-caps;
+}
+
+#allpages tr td {
+    font-size: 12px !important;
+    padding: 5px 20px 5px 0;
+}
+
+.dont-break-out {
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.messagelink td {
+	background-color: #fae79a !important;
+	border-bottom: 1px solid #666 !important;
+}
